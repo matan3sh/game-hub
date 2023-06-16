@@ -13,7 +13,6 @@ const PlatformSelector = ({
   selectedPlatform,
 }: PlatformSelectorProps) => {
   const { data: platforms, error } = usePlatforms()
-
   if (error) return null
 
   return (
